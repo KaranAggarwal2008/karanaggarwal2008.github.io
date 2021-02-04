@@ -1,136 +1,78 @@
-h1{
+h1 {
     color: brown;
     margin-left: 30px;
-    padding: 6px;
 }
-.header *{
-    border:solid
-}
+
+.header * {
+    border: solid;
+} 
+
 .header{
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
-    font-size: large;
-    margin: 25px;
 }
-.item{
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    position: relative;
 }
+
 .footer{
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
+
 p,h2{
     text-align: center;
 }
-.menu{
-    font-size: large;
-    margin-right: 30px;
-}
+
 body{
     background-color: #00ff00;
-    padding: 0.1%;
-    margin-left: 15px;
 }
-:hover{
-    color: #000000;
 
-}
-:active{
-    color: #F9F9F9;
-}
 a:link{
-    color: #ffffff;
+    color: white;
 }
-:window-inactive{
-    background-color: #2fff02;
-}
-/*:checked{
-    color: cadetblue;
-}*/
+
 a:visited{
-    color:#ffffff;
+    color: white;
 }
+
+.menu{
+    margin-right: 30px;
+}
+
 .menu a{
-margin-left: 20px;
+    margin-left: 20px;
 }
+
+.item{
+    position: relative;
+}
+
 .item p{
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 0;
+    transform: translate(-50%, -50%);
+    opacity:0;
 }
-.item :hover p{
-    opacity:1;
+
+.item:hover p{
+    opacity: 1;
 }
-.item :hover img{
+
+.item:hover img{
     opacity: 0.33;
-    transform: scale(1.12);
+} 
+a:hover{
+    color: wheat;
 }
-/* The side navigation menu */
-/*.menu {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }*/
-  
-  /* Sidebar links */
-  /*.menu a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }*/
-  
-  /* Active/current link */
-  /*.menu a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  /* Links on mouse-over */
- /* .menu a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }*/
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  /*div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  /*@media screen and (max-width: 700px) {
-    .menu {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
- /* @media screen and (max-width: 400px) {
-    .menu a {
-      text-align: center;
-      float: none;
-    }
-  }
- /* .item *{
-   margin-left: 68px;
-  }
-  /*.last{
-      margin-right: 20px;
-      margin-left: 5px;
-  }*/
