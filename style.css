@@ -76,3 +76,6 @@ a:visited{
 a:hover{
     color: wheat;
 }
+.appoint{
+    position: absolute;
+}
