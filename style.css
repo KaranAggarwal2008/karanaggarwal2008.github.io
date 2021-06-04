@@ -35,15 +35,15 @@ p,h2{
 }
 
 body{
-    background-color: #00ff00;
+    background-color: #FFF5C3;
 }
 
 a:link{
-    color: white;
+    color: black;
 }
 
 a:visited{
-    color: white;
+    color: black;
 }
 
 .menu{
@@ -78,4 +78,8 @@ a:hover{
 }
 .appoint{
     position: absolute;
+}
+.feedback{
+    position: absolute;
+    left: 10%
 }
