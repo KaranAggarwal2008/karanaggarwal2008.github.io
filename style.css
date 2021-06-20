@@ -83,3 +83,9 @@ a:hover{
     position: absolute;
     left: 10%
 }
+.new-1{
+    position: center;
+    text-decoration-color: red;
+    text-emphasis-color: black;
+    background-color: #5cFFC3;
+}
