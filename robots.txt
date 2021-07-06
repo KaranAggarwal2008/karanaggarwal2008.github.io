@@ -3,5 +3,6 @@ User-agent: Googlebot
 Disallow: /nogooglebot/
 
 # Group 2
+Sitemap: https://karanaggarwal2008.github.io/Portofolio-v1-C49/sitemaps.txt
 User-agent: *
 Allow: /
