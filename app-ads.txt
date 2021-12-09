@@ -513,3 +513,4 @@ algorix.co, 60093, Reseller, 5b394c12fea27a1d
 inmobi.com, 3a4f7da341dd490cbb7dde02b126275e, RESELLER, 83e75a7ae333ca9d
 pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
 rhythmone.com, 3948367200, RESELLER, a670c89d4a324e47
+google.com, pub-9903461780676508, DIRECT, f08c47fec0942fa0
