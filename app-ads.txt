@@ -1,4 +1,3 @@
-google.com, pub-9903461780676508, DIRECT, f08c47fec0942fa0
 ## Updated at: 2021-11-17
 google.com, pub-5580537606944457, DIRECT, f08c47fec0942fa0
 
